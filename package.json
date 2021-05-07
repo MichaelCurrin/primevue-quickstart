@@ -2,10 +2,14 @@
   "name": "primevue-quickstart",
   "version": "0.1.0",
   "scripts": {
-    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint",
+    "lint:check": "vue-cli-service lint --no-fix",
     "serve": "vue-cli-service serve",
     "start": "yarn serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "preversion": "git fetch --tags && yarn lint-check",
+    "version": "yarn build",
+    "postversion": "git push --follow-tags"
   },
   "dependencies": {
     "core-js": "^3.6.5",
