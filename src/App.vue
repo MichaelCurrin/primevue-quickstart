@@ -1,4 +1,5 @@
 <template>
+  <img alt="PrimeVue logo" src="./assets/primevue-logo.png" />
   <h1>PrimeVue Quickstart</h1>
 
   <Button label="Submit" />
