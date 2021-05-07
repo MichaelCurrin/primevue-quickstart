@@ -22,6 +22,7 @@
     "eslint": "^7.25.0",
     "eslint-plugin-vue": "^7.9.0"
   },
+  "license": "MIT",
   "eslintConfig": {
     "root": true,
     "env": {
