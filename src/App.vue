@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>PrimeVue Quickstart</h1>
+
+  <Button label="Submit" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import "primevue/resources/themes/saga-blue/theme.css"; //theme
+import "primevue/resources/primevue.min.css"; //core css
+import "primeicons/primeicons.css"; //icons
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+};
 </script>
 
 <style>
