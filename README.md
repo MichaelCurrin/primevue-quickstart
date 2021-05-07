@@ -43,7 +43,7 @@ See also this template project, which uses PrimeVue without Node or a build step
 
 <div align="center">
 
-[![View docs](https://img.shields.io/badge/go_to-docs-blue?style=for-the-badge)](/docs/)
+[![View - Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](/docs/)
 
 </div>
 
