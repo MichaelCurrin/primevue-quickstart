@@ -3,17 +3,28 @@
 
   <h1>PrimeVue Quickstart</h1>
 
-  <h2>Form</h2>
-  <p><i>Demo of InputText and Button components.</i></p>
+  <h2>Form demo</h2>
+  <p>
+    <i>
+      Demo of InputText and Button components. Enter "dev" as your name to see
+      an error.
+    </i>
+  </p>
 
   <form @submit.prevent="greet">
-    <InputText type="text" v-model="text" />
+    <span>Name: </span>
+    <InputText type="text" v-model="text" required />
 
+    <br />
+    <br />
     <Button type="submit" label="Submit" />
   </form>
 
-  <h2>Reponses</h2>
+  <h3>Your responses</h3>
   <p>{{ message }}</p>
+
+  <!-- This is not visible directly but allow pop-up notifications to happen. -->
+  <Toast />
 </template>
 
 <script>
@@ -22,13 +33,21 @@ export default {
   data() {
     return {
       text: "",
-      message: "",
+      results: "",
     };
   },
   methods: {
     greet() {
-      // this.$toast.add({ severity: "info", summary: "Hello " + this.text });
-      this.message = this.text ? `Hello, ${this.text}!` : "";
+      if (this.text === "dev") {
+        const msg = "That name is not allowed.";
+
+        this.$toast.add({ severity: "error", summary: msg });
+        return;
+      }
+
+      const msg = `Hello, ${this.text}!`;
+      this.$toast.add({ severity: "info", summary: msg });
+      this.results = msg;
     },
   },
 };
