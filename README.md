@@ -1,4 +1,5 @@
 # PrimeVue Quickstart
+> Starter template for a PrimeVue app
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/primevue-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/primevue-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
@@ -8,6 +9,13 @@
 
 [![Package - vue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/primevue-quickstart/vue?logo=vue.js&logoColor=white)](https://www.npmjs.com/package/vue)
 [![Package - primevue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/primevue-quickstart/primevue)](https://www.npmjs.com/package/primevue)
+
+
+## About
+
+PrimeVue is "The Most Complete Vue UI Component Library". It allows you to use components and a theme system on your existing Vue app.
+
+Learn more about PrimeVue [here](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/primevue/).
 
 
 ## Installation
@@ -48,7 +56,7 @@ See Vue [Configuration Reference](https://cli.vuejs.org/config/).
     $ npx @vue/cli new my-app
     cd my-app
     ```
-2. Add PrimeVue dependencies.
+2. Add PrimeVue dependencies - from [PrimeVue Quickstart](https://primefaces.org/primevue/showcase/#/setup) page.
     ```sh
     $ yarn add primevue@^3.3.5 primeicons@latest
     ```
