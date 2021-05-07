@@ -20,6 +20,8 @@
 
 ## Use this project
 
+<div align="center">
+
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/primevue-quickstart/generate)
 
 </div>
@@ -33,7 +35,7 @@ Learn more about PrimeVue in my [Dev Resources](https://michaelcurrin.github.io/
 
 See also this template project, which uses PrimeVue without Node or a build step:
 
-[![MichaelCurrin - primevue-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=primevue-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/primevue-frontend-quickstart)
+- [![MichaelCurrin - primevue-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=primevue-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/primevue-frontend-quickstart)
 
 
 ## Documentation
@@ -41,7 +43,7 @@ See also this template project, which uses PrimeVue without Node or a build step
 
 <div align="center">
 
-[![View docs](https://img.shields.io/badge/go_to-docs-blue)](/docs/)
+[![View docs](https://img.shields.io/badge/go_to-docs-blue?style=for-the-badge)](/docs/)
 
 </div>
 
