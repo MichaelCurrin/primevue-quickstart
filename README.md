@@ -70,6 +70,7 @@ For more ideas, see [PrimeVue Quickstart](https://github.com/primefaces/primevue
 - [Vue CLI](https://cli.vuejs.org/) - for generating the base Vue app.
 - [PrimeVue Quickstart](https://primefaces.org/primevue/showcase/#/setup) page in the docs - For indicating what dependencies to add.
 - [PrimeVue Quickstart](https://github.com/primefaces/primevue-quickstart) repo by PrimeFaces - for the PNG logo and ideas for basic component use.
+- [icon-logo.png](https://www.primefaces.org/primevue/resources/images/icon-logo.png) favicon - from the PrimeVue website.
 
 
 ## License
