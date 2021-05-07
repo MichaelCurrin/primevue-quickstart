@@ -11,6 +11,20 @@
 [![Package - primevue](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/primevue-quickstart/primevue)](https://www.npmjs.com/package/primevue)
 
 
+## Preview
+
+<div align="center">
+    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+</div>
+
+
+## Use this project
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/primevue-quickstart/generate)
+
+</div>
+
+
 ## About
 
 PrimeVue is "The Most Complete Vue UI Component Library". It allows you to use components and a theme system on your existing Vue app.
@@ -18,35 +32,14 @@ PrimeVue is "The Most Complete Vue UI Component Library". It allows you to use c
 Learn more about PrimeVue [here](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/primevue/).
 
 
-## Installation
+## Documentation
+> How to install and run the app locally and deploy it to GH Pages
 
-```sh
-yarn install
-```
+<div align="center">
 
-## Usage
+[![View docs](https://img.shields.io/badge/go_to-docs-blue)](/docs/)
 
-### Compiles and hot-reloads for development
-
-```sh
-yarn start
-```
-
-### Compiles and minifies for production
-
-```sh
-yarn build
-```
-
-### Lints and fixes files
-
-```sh
-yarn lint
-```
-
-### Customize configuration
-
-See Vue [Configuration Reference](https://cli.vuejs.org/config/).
+</div>
 
 
 ## Start a new project from scratch
@@ -56,12 +49,21 @@ See Vue [Configuration Reference](https://cli.vuejs.org/config/).
     $ npx @vue/cli new my-app
     cd my-app
     ```
-2. Add PrimeVue dependencies - from [PrimeVue Quickstart](https://primefaces.org/primevue/showcase/#/setup) page.
+2. Add PrimeVue dependencies.
     ```sh
     $ yarn add primevue@^3.3.5 primeicons@latest
     ```
 3. Set up PrimeVue CSS in [main.js](/src/main.js).
 4. Set up PrimeVue components in [main.js](src/main.js) and then use them in `.vue` files.
+
+For more ideas, see [PrimeVue Quickstart](https://github.com/primefaces/primevue-quickstart) by PrimeFaces.
+
+
+## Credits
+
+- [Vue CLI](https://cli.vuejs.org/) - for generating the base Vue app.
+- [PrimeVue Quickstart](https://primefaces.org/primevue/showcase/#/setup) page in the docs - For indicating what dependencies to add.
+- [PrimeVue Quickstart](https://github.com/primefaces/primevue-quickstart) repo by PrimeFaces - for the PNG logo and ideas for basic component use.
 
 
 ## License
