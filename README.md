@@ -29,7 +29,11 @@
 
 PrimeVue is "The Most Complete Vue UI Component Library". It allows you to use components and a theme system on your existing Vue app.
 
-Learn more about PrimeVue [here](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/primevue/).
+Learn more about PrimeVue in my [Dev Resources](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/primevue/).
+
+See also this template project, which uses PrimeVue without Node or a build step:
+
+[![MichaelCurrin - primevue-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=primevue-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/primevue-frontend-quickstart)
 
 
 ## Documentation
