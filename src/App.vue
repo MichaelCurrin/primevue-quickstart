@@ -13,7 +13,7 @@
 
   <form @submit.prevent="greet">
     <span>Name: </span>
-    <InputText type="text" v-model="text" required />
+    <InputText type="text" v-model="name" required />
 
     <br />
     <br />
@@ -21,7 +21,7 @@
   </form>
 
   <h3>Your responses</h3>
-  <p>{{ message }}</p>
+  <p>{{ results }}</p>
 
   <!-- This is not visible directly but allow pop-up notifications to happen. -->
   <Toast />
@@ -32,20 +32,20 @@ export default {
   name: "App",
   data() {
     return {
-      text: "",
+      name: "",
       results: "",
     };
   },
   methods: {
     greet() {
-      if (this.text === "dev") {
+      if (this.name === "dev") {
         const msg = "That name is not allowed.";
-
         this.$toast.add({ severity: "error", summary: msg });
+        
         return;
       }
 
-      const msg = `Hello, ${this.text}!`;
+      const msg = `Hello, ${this.name}!`;
       this.$toast.add({ severity: "info", summary: msg });
       this.results = msg;
     },
