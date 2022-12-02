@@ -19,6 +19,7 @@ app.use(ToastService);
 
 app.component('Button', Button);
 app.component('InputText', InputText);
+/* eslint-disable-next-line */
 app.component('Toast', Toast);
 
 app.mount("#app")
